@@ -171,18 +171,16 @@ body {
   display:flex;
 }
 #park_photo {
-  position:relative;
+ position: absolute;
+  padding: 0  60px 20px 0;
 }
-.park span {
+#park span {
   position:absolute;
   visibility: hidden;
 }
-.park:hover, .park:hover span {
+#park:hover, #park:hover span {
   visibility: visible;
   top:0;
   left: 100px;
   z-index:1;
-}
-img {
-  width:50px;
 }
