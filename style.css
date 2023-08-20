@@ -1,5 +1,5 @@
 .fixed-container {
-    width: 900px;
+    width: 950px;
     margin: 0 auto;
 }
 
@@ -137,7 +137,7 @@ body {
     border-radius: 50%;
     background-color: #ddbe86;
     color:#000;
-    padding: 30px 67px 20px 67px;
+    padding: 30px 75px 20px 75px;
     text-align: center;
     border-style: double;
     border-width: 6pt;
@@ -154,7 +154,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
   }
-  .headline_1{
+  #headline_1{
     text-shadow: greenyellow 3px 3px 0; 
     font-size: 22px;
     text-align: center;
@@ -162,6 +162,27 @@ body {
     font-weight: bold;
 
   }
-  .headline_1::before{
+  #headline_1::before{
     content: "→";
   }
+.block{
+  width:450px;
+  padding:10px;
+  display:flex;
+}
+#park_photo {
+  position:relative;
+}
+.park span {
+  position:absolute;
+  visibility: hidden;
+}
+.park:hover, .park:hover span {
+  visibility: visible;
+  top:0;
+  left: 100px;
+  z-index:1;
+}
+img {
+  width:50px;
+}
