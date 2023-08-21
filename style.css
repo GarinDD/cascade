@@ -176,11 +176,16 @@ body {
  position:relative;
   padding:5px;
   border: 1px solid black;
-  width:200px;
+  width:220px;
   float: left;
   display:block;
+  background-color: aquamarine;
 }
 
+#park{
+padding: 18px;
+margin:18px;
+}
 #park span {
   position: absolute;
   visibility: hidden;
