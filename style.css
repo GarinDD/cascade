@@ -1,6 +1,8 @@
 .fixed-container {
     width: 900px;
     margin: 0 auto;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
 }
 
 .row {
@@ -19,6 +21,7 @@ div {
 }
 .main-title {
     text-align: center;
+    color:azure;
 }
 
 .row-menu {
@@ -207,7 +210,7 @@ margin:18px;
   z-index:1;
 }
 p{
- color:#211f1f;
+ color:aquamarine;
  font-weight: 400;
  text-align: left;
  padding:3px;
